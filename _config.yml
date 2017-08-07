@@ -272,7 +272,7 @@ font:
   # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
-    external: true
+    external: false
     family: Lato
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
@@ -310,7 +310,7 @@ font:
 mathjax:
   enable: true
   per_page: false
-  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: //cdn.staticfile.org/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
 han: false
@@ -592,36 +592,36 @@ vendors:
   _internal: vendors
 
   # Internal version: 2.1.3
-  jquery: https://staticfile.qnssl.com/jquery/2.1.3/jquery.min.js
+  jquery: https://cdn.staticfile.org/jquery/2.1.3/jquery.min.js
 
   # Internal version: 2.1.5
   # See: http://fancyapps.com/fancybox/
-  fancybox: https://staticfile.qnssl.com/fancybox/2.1.5/jquery.fancybox.min.js
-  fancybox_css: https://staticfile.qnssl.com/fancybox/2.1.5/jquery.fancybox.css
+  fancybox: https://cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.min.js
+  fancybox_css: https://cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
   # See: https://github.com/ftlabs/fastclick
-  fastclick: https://staticfile.qnssl.com/fastclick/1.0.6/fastclick.min.js
+  fastclick: https://cdn.staticfile.org/fastclick/1.0.6/fastclick.min.js
 
   # Internal version: 1.9.7
   # See: https://github.com/tuupola/jquery_lazyload
-  lazyload: https://staticfile.qnssl.com/jquery.lazyload/1.9.1/jquery.lazyload.min.js
+  lazyload: https://cdn.staticfile.org/jquery_lazyload/1.9.7/jquery.lazyload.min.js
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
-  velocity: https://staticfile.qnssl.com/velocity/1.2.1/velocity.min.js
+  velocity: https://cdn.staticfile.org/velocity/1.2.1/velocity.min.js
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
-  velocity_ui: https://staticfile.qnssl.com/velocity/1.2.1/velocity.ui.min.js
+  velocity_ui: https://cdn.staticfile.org/velocity/1.2.1/velocity.ui.min.js
 
   # Internal version: 0.7.9
   # See: https://faisalman.github.io/ua-parser-js/
-  ua_parser: https://staticfile.qnssl.com/UAParser.js/0.7.9/ua-parser.min.js
+  ua_parser: https://cdn.staticfile.org/UAParser.js/0.7.9/ua-parser.min.js
 
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
-  fontawesome: https://staticfile.qnssl.com/font-awesome/4.6.2/css/font-awesome.css
+  fontawesome: https://cdn.staticfile.org/font-awesome/4.6.2/css/font-awesome.css
 
   # Internal version: 1
   # https://www.algolia.com
